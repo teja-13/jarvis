@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jarvis-backend
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: always
+jarvis:
+  desktop-agent-url: ${DESKTOP_AGENT_URL:http://localhost:8765}
